@@ -7,8 +7,8 @@ function extract(data) {
   console.log(data);
   let ans = "";
   for (const key in data) {
-    console.log(key + ":", data[key]);
-    // ans += `${key}: ${data[key]}\n`;
+    // console.log(key + ":", data[key]);
+    ans += `${key}: ${data[key]}\n`;
   }
   return ans;
 }
