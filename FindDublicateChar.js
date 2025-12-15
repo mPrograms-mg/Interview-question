@@ -13,3 +13,24 @@ for (let i = 0; i < str.length; i++) {
 }
 
 console.log(result);
+
+function findDuplicateCharacters(str) {
+  let freq = {};
+  let result = [];
+
+  for (let ch of str) {
+    freq[ch] = (freq[ch] || 0) + 1;
+  }
+
+  for (let ch in freq) {
+    if (freq[ch] > 1) {
+      result.push(ch);
+    }
+  }
+
+  return result;
+}
+
+findDuplicateCharacters("programming");
+console.log(findDuplicateCharacters("programming"));
+// ["r", "g", "m"]
