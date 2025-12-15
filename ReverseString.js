@@ -18,4 +18,12 @@ function reverseString(str) {
 //   revStr = char + revStr;
 // }
 
-console.log(reverseString(str));
+// console.log(reverseString(str));
+
+// using built method
+function reverseStrBuildingMethod(str) {
+  let reverseStr = str.split("").reverse().join("");
+  console.log(reverseStr);
+}
+
+reverseStrBuildingMethod(str);
