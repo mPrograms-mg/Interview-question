@@ -26,4 +26,26 @@ function reverseStrBuildingMethod(str) {
   console.log(reverseStr);
 }
 
-reverseStrBuildingMethod(str);
+// reverseStrBuildingMethod(str);
+
+//Reverse Each Word of sentence
+let string = "Hello I am Mahesh";
+let result = "";
+let revString = string.split(" ").reverse();
+
+console.log(string);
+for (let word of revString) {
+  let revWord = "";
+  for (let char of word) {
+    revWord = char + revWord;
+  }
+  result += revWord + " ";
+}
+
+console.log("===", result);
+
+//Reverse Each Word of sentence with same order using building method
+let reverStr = string.split(" ");
+console.log(reverStr);
+let ans = reverStr.map((char) => char.split("").reverse().join(""));
+console.log(ans);
