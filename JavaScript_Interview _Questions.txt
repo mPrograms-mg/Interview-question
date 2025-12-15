@@ -1,0 +1,86 @@
+JavaScript / Frontend Coding Interview Questions
+🔹 String Problems
+
+Reverse a string
+Check if a string is a palindrome
+Remove duplicates from a string
+Find the first non-repeating character
+Count occurrences of each character in a string
+Reverse words in a sentence
+Check if two strings are anagrams
+Find the longest substring without repeating characters
+Convert string to integer (atoi)
+Compress a string (run-length encoding)
+Find the most frequent character
+Find all substrings of a string
+Check if a string is a rotation of another string
+Remove all whitespaces from a string
+Check if a string is a valid shuffle of two strings
+Convert a string to title case
+Find the longest common prefix
+Convert string to character array
+Replace spaces with %20 (URL encoding)
+Convert sentence into an acronym
+Check if a string contains only digits
+Count number of words in a string
+Remove a given character from a string
+Find the shortest word in a sentence
+Find the longest word in a sentence
+Find the longest palindromic substring
+Reverse words without using reverse()
+Convert string path to nested object
+"a.b.c", "value" → {a:{b:{c:"value"}}}
+
+
+
+Array Problems
+
+Find maximum number in an array
+Find minimum number in an array
+Find second largest number
+Remove duplicates from an array
+Find missing number in 1…N
+Find index of an element in array
+Find intersection of two arrays
+Merge two sorted arrays and sort result
+Sort array ascending (without built-in sort)
+Sort array descending
+Find max count of consecutive 1’s
+Get unique objects from array
+Find even numbers from array
+Flatten a nested array
+Find largest number in nested array
+Empty an array in JavaScript
+Number / Math Problems
+Find factorial of a number
+Generate Fibonacci sequence
+Check if a number is prime
+Find GCD of two numbers
+Check if number is Armstrong
+Sum of digits of a number
+Check integer or decimal
+First 100 prime numbers
+
+Logic / Pattern Problems
+FizzBuzz (1 to N)
+Check valid shuffle of two strings
+Square frequency check between two arrays
+
+
+JavaScript Output / Tricky Questions
+0 == '0'
+[] == ![]
+'2' + 1
++'Infinity' - '5'
+3 * 'foo'
+typeof typeof 1
+[] + {}
+'foo' instanceof String
+Math.max()
+NaN === NaN
+typeof NaN
+[] + []
+0.1 + 0.2 === 0.3
+'10' - -'5'
+null + null
+[] == ''
