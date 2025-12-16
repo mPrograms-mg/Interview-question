@@ -28,6 +28,29 @@ for (let index = 0; index < strArr2.length; index++) {
     }
   }
 }
-console.log(result);
+// console.log(result);
 
 //using without buildin method
+let strArray = [];
+let word = "";
+for (const name of names) {
+  if (name === " ") {
+    strArray.push(word);
+    word = "";
+  } else {
+    word += name;
+  }
+}
+strArray.push(word);
+console.log("String to Array ", strArray);
+let output = "";
+for (let index = 0; index < strArray.length; index++) {
+  console.log("First Array", strArray[index]);
+  for (let j = 0; j < strArray[index].length; j++) {
+    console.log("Second Array", strArray[index][j]);
+    if (strArray[index][j] === ch && j === pos - 1) {
+      output += strArray[index] + " ";
+    }
+  }
+}
+console.log("Output=========", output);
