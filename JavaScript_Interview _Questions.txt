@@ -62,12 +62,14 @@ Check integer or decimal
 First 100 prime numbers
 
 Logic / Pattern Problems
+
 FizzBuzz (1 to N)
 Check valid shuffle of two strings
 Square frequency check between two arrays
 
 
 JavaScript Output / Tricky Questions
+
 0 == '0'
 [] == ![]
 '2' + 1
