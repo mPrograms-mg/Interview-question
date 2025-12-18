@@ -1,6 +1,18 @@
 // Find the first non-repeating character
-str = "programming";
-output = "p";
+str = "aabb";
+let freq = {};
 
-let ans = [...new Set([...str])].join("");
-console.log(ans.charAt(0));
+for (let ch of str) {
+  freq[ch] = (freq[ch] || 0) + 1;
+}
+
+for (let first in freq) {
+  if (freq[first] === 1) {
+    ans = str.indexOf(first);
+    break;
+  } else {
+    ans = -1;
+  }
+}
+
+console.log(ans);
