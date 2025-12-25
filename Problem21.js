@@ -10,6 +10,7 @@ var lengthOfLongestSubstring = function (str) {
     if (!subStr.has(str[ends])) {
       subStr.add(str[ends]);
       maxLength = Math.max(maxLength, subStr.size);
+      console.log(subStr.values());
       ends++;
     } else {
       subStr.delete(str[start]);
@@ -19,3 +20,5 @@ var lengthOfLongestSubstring = function (str) {
 
   return maxLength;
 };
+
+console.log(lengthOfLongestSubstring("maheshkshirsagar"));
